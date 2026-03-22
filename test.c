@@ -3,8 +3,6 @@
 
 int main()
 {
-<<<<<<< HEAD
-
         Triangle test = {0, 0, 0};
         printf("Введите стороны стреугольника в формате: 1 2 3: ");
         scanf("%d %d %d", &(test.a), &(test.b), &(test.c));
