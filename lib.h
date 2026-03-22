@@ -62,4 +62,3 @@ struct circle new_circle(float r)
     c.area = pi*r*r;
     return c;
 }
->>>>>>> a6ab1c280b6a8e7b3da361f8f33caaa288c73d29

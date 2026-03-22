@@ -19,7 +19,7 @@ int main()
 	printf("введите радиус окружности");
 	float r;
 	scanf("%f", &r);
-	circle c = new_circle(r);
+	struct circle c = new_circle(r);
 	printf("\nдлина окружности: %f\n ",c.length);
 	printf("\nплощадь окружности: %f\n ",c.area);
 
