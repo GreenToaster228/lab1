@@ -42,24 +42,14 @@ struct circle
 float rad_sector_area(struct circle c, float radian_angle)
 {
     if(radian_angle<0)
-<<<<<<< HEAD
-        radian angle = -radian_angle
-        return radian_angle*c.radius*c.radius/(2.0f);
-=======
         radian_angle = -radian_angle;
     return radian_angle*c.radius*c.radius/(2.0f);
->>>>>>> CIRCLE
 }
 float deg_sector_area(struct circle c, float degree_angle)
 {
     if(degree_angle<0)
-<<<<<<< HEAD
-        degree_angle = -degree_angle
-        return degree_angle*c.radius*c.radius*pi/360.0f;
-=======
         degree_angle = -degree_angle;
     return degree_angle*c.radius*c.radius*pi/360.0f;
->>>>>>> CIRCLE
 }
 
 struct circle new_circle(float r)
@@ -72,5 +62,4 @@ struct circle new_circle(float r)
     c.area = pi*r*r;
     return c;
 }
-=======
 >>>>>>> a6ab1c280b6a8e7b3da361f8f33caaa288c73d29
