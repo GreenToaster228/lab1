@@ -33,13 +33,13 @@ struct circle
 float rad_sector_area(struct circle c, float radian_angle)
 {
     if(radian_angle<0)
-        radian angle = -radian_angle
+        radian_angle = -radian_angle;
     return radian_angle*c.radius*c.radius/(2.0f);
 }
 float deg_sector_area(struct circle c, float degree_angle)
 {
     if(degree_angle<0)
-        degree_angle = -degree_angle
+        degree_angle = -degree_angle;
     return degree_angle*c.radius*c.radius*pi/360.0f;
 }
 
