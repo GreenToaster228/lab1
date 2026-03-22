@@ -31,7 +31,11 @@ char isosceles(const Triangle *triangle)
     if (check(triangle) == 0) return 0;
     return (triangle -> a == triangle -> b || triangle -> a == triangle -> c || triangle -> b == triangle -> c);
 }
+<<<<<<< HEAD
 
+=======
+// new commentary
+>>>>>>> CIRCLE
 struct circle
 {
     float length;
