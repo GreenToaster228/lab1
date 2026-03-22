@@ -22,7 +22,7 @@ char isosceles(const Triangle *triangle)
 {
 	return (triangle -> a == triangle -> b || triangle -> a == triangle -> c || triangle -> b == triangle -> c);
 }
-
+//divider
 struct circle
 {
     float length;
