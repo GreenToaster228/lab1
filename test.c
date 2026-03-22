@@ -13,6 +13,6 @@ int main()
 	printf("введите углы в формате: 'радиальный градусы': ");
 	float rad;
 	float deg;
-	scanf("%f %f",rad deg);
+	scanf("%f %f",&rad, &deg);
 	printf("\nрадиальная - %f, градусная - %f", rad_sector_area(c, rad), deg_sector_area(c,deg));
 }
