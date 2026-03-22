@@ -9,6 +9,13 @@ int main()
         scanf("%d %d %d", &(test.a), &(test.b), &(test.c));
         printf("Пермиетр: %d\n", perimeter(&test));
         printf("Площадь: %d\n", area(&test));
-        printf("Равностороннесть: %d", isosceles(&test));
+	if (isosceles(&test) == 0)
+	{
+		printf("Равнобедренный\n");
+	}
+       	else
+	{
+		printf("Неравнобедренный\n");
+	}
 }
 
