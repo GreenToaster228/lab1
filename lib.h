@@ -31,7 +31,7 @@ char isosceles(const Triangle *triangle)
 	if (check(triangle) == 0) return 0;
 	return (triangle -> a == triangle -> b || triangle -> a == triangle -> c || triangle -> b == triangle -> c);
 }
-
+//divider
 struct circle
 {
     float length;
