@@ -1,4 +1,4 @@
-#include "triangle.h"
+#include "lib.h"
 #include <stdio.h>
 
 int main()
