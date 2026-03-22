@@ -3,8 +3,19 @@
 
 int main()
 {
-	Triangle test = {3, 4, 5};
-	printf("Пермиетр: %d\n", perimeter(&test));
-	printf("Площадь: %d\n", area(&test));
-	printf("Равностороннесть: %d", isosceles(&test));
+
+        Triangle test = {0, 0, 0};
+        printf("Введите стороны стреугольника в формате: 1 2 3: ");
+        scanf("%d %d %d", &(test.a), &(test.b), &(test.c));
+        printf("Пермиетр: %d\n", perimeter(&test));
+        printf("Площадь: %d\n", area(&test));
+	if (isosceles(&test) == 0)
+	{
+		printf("Равнобедренный\n");
+	}
+       	else
+	{
+		printf("Неравнобедренный\n");
+	}
 }
+
