@@ -31,15 +31,33 @@ typedef struct
 
 int perimeterRectangle(const Rectangle *rectangle)
 {
-	return (rectangle -> a + rectangle -> b)*2;
+	if(a<0 || b<0)
+	{
+		return 0;
+		printf("Ошибка: отрицательные числа.");
+	}
+	else
+		return (rectangle -> a + rectangle -> b)*2;
 }
 
 int areaRectangle(const Rectangle *rectangle)
 {
-	return rectangle -> a * rectangle -> b;
+	if(a<0 || b<0)
+	{
+		return 0;
+		printf("Ошибка: отрицательные числа.");
+	}
+	else
+		return rectangle -> a * rectangle -> b;
 }
 
 double diagonal(const Rectangle *rectangle)
 {
-	return (sqrt(pow(rectangle -> a,2) + pow(rectangle -> b,2)));
+	if(a<0 || b<0)
+	{
+		return 0;
+		printf("Ошибка: отрицательные числа.");
+	}
+	else
+		return (sqrt(pow(rectangle -> a,2) + pow(rectangle -> b,2)));
 }
