@@ -2,7 +2,7 @@
 
 typedef struct
 {
-	int a;
+	int a; //aboba
 	int b;
 	int c;
 } Triangle;
