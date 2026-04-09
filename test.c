@@ -1,7 +1,7 @@
 #include "lib.h"
 #include <stdio.h>
 
-int main()
+int main() //aboba
 {
 
         Triangle test = {0, 0, 0};
@@ -9,7 +9,7 @@ int main()
         scanf("%d %d %d", &(test.a), &(test.b), &(test.c));
         printf("Пермиетр: %d\n", perimeter(&test));
         printf("Площадь: %d\n", area(&test));
-	if (isosceles(&test) == 0)
+	if (isosceles(&test) == 1)
 	{
 		printf("Равнобедренный\n");
 	}
